@@ -1,9 +1,14 @@
 # more-utils.js
 
-整合一些常用的浏览器客户端环境下的函数方法
+整合一些浏览器客户端环境下常用的函数方法
 
 - npm: https://www.npmjs.com/package/more-utils
+- github: https://github.com/mouday/more-utils.js
 
+安装
+```
+npm i mo-utils
+```
 
 已整理归纳：
 
