@@ -21,6 +21,9 @@ base64ToBlob(base64)
 
 // 3、将file对象或blob对象转url
 getObjectURL(obj)
+
+// 4、监听粘贴事件，从剪切板获取图片file对象
+pasteImageFromClipboard(element, callback)
 ```
 
 使用示例

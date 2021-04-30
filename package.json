@@ -1,12 +1,12 @@
 {
   "name": "more-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a browser env util package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["util", "base64", "DataURL", "Blob"],
   "author": "",
   "license": "ISC"
 }
