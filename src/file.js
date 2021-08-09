@@ -1,6 +1,8 @@
 /**
  * 上传的file转Base64 DataURL
  * ref: https://segmentfault.com/a/1190000020153597
+ * 
+ * return Promise
  */
 export function fileToBase64(file) {
   return new Promise((resolve, reject) => {

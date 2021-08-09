@@ -7,11 +7,12 @@
 
 安装
 ```
-npm i mo-utils
+npm i more-utils
 ```
 
 已整理归纳：
 
+file.js
 ```js
 // 1、上传的file转Base64 DataURL
 fileToBase64(file)
@@ -25,7 +26,10 @@ getObjectURL(obj)
 // 4、监听粘贴事件，从剪切板获取图片file对象
 pasteImageFromClipboard(element, callback)
 ```
+array.js
+```js
 
+```
 使用示例
 
 ```html
