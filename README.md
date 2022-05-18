@@ -94,3 +94,22 @@ export default {
 <style lang="scss" scoped>
 </style>
 ```
+
+
+示例
+
+```html
+<img class="image"
+         src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg9.51tietu.net%2Fpic%2F2019-091307%2Fntplrtyw2bvntplrtyw2bv.jpg&refer=http%3A%2F%2Fimg9.51tietu.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1655389703&t=4423dd371c66b6064a1ed3c4dc5e05cd"
+         alt="">
+
+    <script src="./dist/more-utils.js"></script>
+    <script>
+        (async () => {
+            let image = document.querySelector('.image')
+            let image_size = await more_utils.getImageSize(image)
+            console.log(image_size)
+            // {width: 1920, height: 1200}
+        })()
+    </script>
+```
