@@ -1,8 +1,8 @@
 {
   "name": "more-utils",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "a env util package",
-  "main": "index.js",
+  "main": "./dist/more-utils.js",
   "scripts": {
     "build": "webpack --config webpack.config.js --mode production"
   },
